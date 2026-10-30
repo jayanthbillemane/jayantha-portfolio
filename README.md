@@ -1,13 +1,14 @@
 # Jayantha BS — Interactive Architecture Engineering Portfolio (GitHub Pages Edition)
 
 > **Senior Software Engineer — AI Platforms, Multi-Agent Runtimes & Distributed Backend Systems**  
-> *Zero-Build Architecture • Native ES6 Modules • SVG Cubic Bezier Engine • Bounding-Box Grounding • 15 FPS CamcomAI Edge CV*
+> _Zero-Build Architecture • Native ES6 Modules • SVG Cubic Bezier Engine • Bounding-Box Grounding • 15 FPS CamcomAI Edge ComputerVision_
 
 ---
 
 ## ⚡ Overview & Architectural Philosophy
 
 This portfolio is built as an interactive **Linear / LangSmith Dark Engineering Console** adhering strictly to **Zero-Build constraints**:
+
 - **Zero build steps**: No npm, Webpack, Vite, Node.js, or compilation required.
 - **Pure Web Standards**: Semantic HTML5, CSS3 Custom Properties (Variables), Vanilla ES6+ JavaScript Modules (`type="module"`), Interactive SVG, and CDN-loaded micro-utilities (Tailwind Play CDN, Lucide Icons).
 - **GitHub Pages Ready**: Includes `.nojekyll` and clean relative asset resolution for instant static hosting.
@@ -17,6 +18,7 @@ This portfolio is built as an interactive **Linear / LangSmith Dark Engineering 
 ## 🚀 The 5 Interactive Console Modes
 
 ### 1. `[01] Agent Runtime DAG` (`#agent-runtime`)
+
 - **Architecture**: Asynchronous multi-agent execution pipeline.
   - FastAPI Ingress Gateway -> Redis Token-Bucket (HTTP 429 limiter) -> LangGraph Supervisor -> Concurrent Qdrant Vector Retrieval + Isolated eBPF Python Sandbox -> vLLM Continuous Batching LLM -> AIFA Safety Guardrails -> SSE Stream Egress.
 - **Interactivity**:
@@ -26,6 +28,7 @@ This portfolio is built as an interactive **Linear / LangSmith Dark Engineering 
   - Draggable node cards with dynamic curve recalculation and real-time status pulses.
 
 ### 2. `[02] Citation RAG Lab` (`#rag-citation`)
+
 - **Architecture**: Spatial Bounding-Box Grounding & Attribution Engine for clinical trial protocols (EMERALD-301 Phase III Study).
 - **Interactivity**:
   - **Left Subpane**: Interactive mock clinical trial PDF viewer with headers, Kaplan-Meier tables, and spatial bounding boxes.
@@ -34,6 +37,7 @@ This portfolio is built as an interactive **Linear / LangSmith Dark Engineering 
   - Dynamic Cosine Similarity threshold slider (`0.70` to `0.98`) filtering retrieved chunks in real time.
 
 ### 3. `[03] Veeva & AIFA Pipeline` (`#veeva-aifa`)
+
 - **Architecture**: Life sciences enterprise regulatory compliance bridge.
   - Veeva PromoMats Webhook -> LayoutLM OCR -> Claim Decomposer Agent -> Italian Medicines Agency (AIFA D.Lgs. 219/06 Art. 119) Rule Validator & SmPC Monograph Verifier -> Compliance Arbiter Gate -> 21 CFR Part 11 Cryptographic Audit Trail -> Salesforce Health Cloud / Veeva Vault sync.
 - **Interactivity**:
@@ -41,6 +45,7 @@ This portfolio is built as an interactive **Linear / LangSmith Dark Engineering 
   - Statutory compliance checklist with real-time pass/fail validation.
 
 ### 4. `[04] K8s HPA & OTel Traces` (`#k8s-otel`)
+
 - **Architecture**: Kubernetes Horizontal Pod Autoscaler & OpenTelemetry Distributed Tracing console.
 - **Interactivity**:
   - **RPS Slider**: Interactive throughput generator (`50 RPS` to `5,000 RPS`) with live CPU utilization gauge and automatic pod scaling ($N = \min(8, \max(1, \lceil \text{RPS} / 550 \rceil))$).
@@ -49,6 +54,7 @@ This portfolio is built as an interactive **Linear / LangSmith Dark Engineering 
   - **OpenTelemetry Gantt Waterfall**: Interactive multi-span trace (`gateway.http_request`, `qdrant_query`, `vllm_generation`, `aifa_audit`) with span attributes, timing bars, and duration tags.
 
 ### 5. `[05] Executive Resume & Edge CV` (`#resume`)
+
 - **Architecture**: Executive career profile for Jayantha BS + CamcomAI 15 FPS Real-Time Edge CV Inspection Simulator.
 - **Interactivity**:
   - **Profile & Impact Metrics**: 4,200+ RPS sustained throughput, <68ms p99 latency, 15 FPS edge video runtime, 99.4% AIFA precision, 10M+ vision frames.
@@ -61,16 +67,16 @@ This portfolio is built as an interactive **Linear / LangSmith Dark Engineering 
 
 ## ⌨️ Global Keyboard Shortcuts
 
-| Shortcut | Action |
-|---|---|
-| `1` | Switch to Mode 1: Agent Runtime DAG |
-| `2` | Switch to Mode 2: Citation RAG Lab |
-| `3` | Switch to Mode 3: Veeva & AIFA Pipeline |
-| `4` | Switch to Mode 4: K8s HPA & OTel Traces |
-| `5` | Switch to Mode 5: Executive Resume & Edge CV |
-| `Space` | Run / Pause simulation transport |
-| `R` | Reset simulation state |
-| `C` | Clear telemetry logs terminal |
+| Shortcut | Action                                       |
+| -------- | -------------------------------------------- |
+| `1`      | Switch to Mode 1: Agent Runtime DAG          |
+| `2`      | Switch to Mode 2: Citation RAG Lab           |
+| `3`      | Switch to Mode 3: Veeva & AIFA Pipeline      |
+| `4`      | Switch to Mode 4: K8s HPA & OTel Traces      |
+| `5`      | Switch to Mode 5: Executive Resume & Edge CV |
+| `Space`  | Run / Pause simulation transport             |
+| `R`      | Reset simulation state                       |
+| `C`      | Clear telemetry logs terminal                |
 
 ---
 
