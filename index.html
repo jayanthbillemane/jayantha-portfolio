@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jayantha BS | Senior AI & Backend Platforms Engineer</title>
+  
+  <meta name="description" content="Production-grade interactive engineering portfolio for Jayantha BS (Senior Software Engineer — AI Platforms, Multi-Agent Runtimes & Distributed Backend Systems).">
+  <meta name="author" content="Jayantha BS">
+
+  <!-- Favicon SVG Data URI -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366F1'/><path d='M30 70 L30 30 L50 30 L50 50 L70 50 L70 70 Z' fill='%23FFFFFF'/></svg>">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheets (Zero-Build, Linear / Vercel Dark Engineering Console) -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/components.css">
+</head>
+<body>
+  <div id="app-root">
+    <!-- ==========================================================================
+         TOP TELEMETRY NAVBAR (56px)
+         ========================================================================== -->
+    <header id="telemetry-navbar">
+      <!-- Left: Identity, Role & Live Status -->
+      <div class="nav-left">
+        <div class="brand-mark">
+          <span class="brand-mark-inner">J</span>
+        </div>
+        <div class="nav-brand-group">
+          <div class="nav-brand-title">JAYANTHA BS</div>
+          <span class="nav-role-badge">SR. AI & MULTI-AGENT RUNTIMES ENGINEER</span>
+        </div>
+        <div class="nav-status-capsule" title="Distributed Event Loop Operational">
+          <span class="pulse-dot"></span>
+          <span>ONLINE</span>
+          <span class="text-dim text-mono" style="font-size: 9px;">• 12ms</span>
+          <span class="text-dim text-mono" id="nav-live-clock" style="font-size: 9px;">--:--:-- UTC</span>
+        </div>
+      </div>
+
+      <!-- Center: 5 Interactive Console Modes -->
+      <nav class="nav-center" aria-label="Console Modes">
+        <button class="nav-mode-btn is-active" data-mode="agent-runtime" title="FastAPI + LangGraph + Isolated Sandbox">
+          <span class="nav-mode-num">01</span>
+          <span>Agent DAG</span>
+        </button>
+        <button class="nav-mode-btn" data-mode="rag-citation" title="Clinical Protocol Spatial BBox Grounding">
+          <span class="nav-mode-num">02</span>
+          <span>Citation RAG</span>
+        </button>
+        <button class="nav-mode-btn" data-mode="veeva-aifa" title="Veeva Vault -> AIFA Regulatory Guardrails">
+          <span class="nav-mode-num">03</span>
+          <span>Veeva & AIFA</span>
+        </button>
+        <button class="nav-mode-btn" data-mode="k8s-otel" title="Dynamic HPA Pods + OpenTelemetry Waterfall">
+          <span class="nav-mode-num">04</span>
+          <span>K8s & OTel</span>
+        </button>
+        <button class="nav-mode-btn" data-mode="resume" title="Executive Profile + CamcomAI 15 FPS Edge CV">
+          <span class="nav-mode-num">05</span>
+          <span>Resume & Edge CV</span>
+        </button>
+      </nav>
+
+      <!-- Right: Direct External Links & PDF Resume Download -->
+      <div class="nav-right">
+        <a href="https://www.linkedin.com/in/jayanth-billemane-a95b68253" target="_blank" rel="noopener noreferrer" class="btn-nav-action" title="LinkedIn Profile">
+          <i data-lucide="linkedin" style="width: 13px; height: 13px;"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="mailto:jayanthbillemane@gmail.com" class="btn-nav-action" title="Send Email">
+          <i data-lucide="mail" style="width: 13px; height: 13px;"></i>
+          <span>Email</span>
+        </a>
+        <a href="./assets/Jayantha_BS_Resume.pdf" download="Jayantha_BS_Resume.pdf" class="btn-nav-action btn-pdf-highlight" title="Download Standard PDF">
+          <i data-lucide="file-down" style="width: 13px; height: 13px;"></i>
+          <span>Resume PDF</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- ==========================================================================
+         3-PANE WORKSPACE CONSOLE
+         ========================================================================== -->
+    <main id="console-workspace">
+      <!-- 1. LEFT CONTROL DOCK (290px) -->
+      <aside id="left-control-dock">
+        <!-- Scrollable Controls Container (Dynamic per mode) -->
+        <div class="dock-controls-scroll" id="dock-controls-container">
+          <!-- Populated dynamically by active view class -->
+        </div>
+
+        <!-- Dock Bottom: Real-Time Telemetry Log Terminal -->
+        <section id="dock-telemetry-panel" aria-label="Runtime Telemetry Terminal">
+          <div class="terminal-header">
+            <div class="terminal-title-group">
+              <i data-lucide="terminal" style="width: 11px; height: 11px;" class="text-cyan"></i>
+              <span>TELEMETRY STREAM</span>
+            </div>
+            <div class="terminal-actions">
+              <button id="btn-clear-terminal" class="btn-icon-subtle" title="Clear Terminal Logs">
+                <i data-lucide="trash-2" style="width: 11px; height: 11px;"></i>
+              </button>
+            </div>
+          </div>
+          <div class="terminal-logs-body" id="terminal-logs-container">
+            <!-- Populated via store.telemetryLogs -->
+          </div>
+        </section>
+      </aside>
+
+      <!-- 2. CENTER INTERACTIVE VIEWPORT (1fr) -->
+      <section id="center-viewport" aria-label="Interactive Architecture Canvas">
+        <!-- Dynamically mounts view templates (#agent-graph-canvas, #rag-lab-split-view, etc.) -->
+      </section>
+
+      <!-- 3. RIGHT INSPECTOR DRAWER (380px) -->
+      <aside id="right-inspector-drawer" aria-label="Node & Telemetry Inspector">
+        <!-- Inspector Header -->
+        <div class="inspector-header">
+          <div class="inspector-meta-row">
+            <span class="inspector-category-badge" id="inspector-category-badge">NODE</span>
+            <span class="text-dim text-mono" style="font-size: 8.5px;"><i data-lucide="activity" style="width: 9px; height: 9px; display: inline;"></i> LIVE INSPECTOR</span>
+          </div>
+          <div class="inspector-node-title" id="inspector-node-title">FastAPI Ingress Gateway</div>
+          <div class="inspector-node-sub" id="inspector-node-sub">Async Router & JWT Validator</div>
+        </div>
+
+        <!-- Inspector Tabs -->
+        <nav class="inspector-tabs-nav" aria-label="Inspector Views">
+          <button class="inspector-tab-btn is-active" data-tab="payload">Payload JSON</button>
+          <button class="inspector-tab-btn" data-tab="code">Python Snippet</button>
+          <button class="inspector-tab-btn" data-tab="metrics">Metrics & Trace</button>
+          <button class="inspector-tab-btn" data-tab="state">Internal State</button>
+        </nav>
+
+        <!-- Inspector Content Body -->
+        <div class="inspector-body">
+          <div class="inspector-toolbar-row">
+            <span class="inspector-section-label">INSPECTION RECORD</span>
+            <button id="btn-copy-inspector" class="btn-copy-payload" title="Copy to clipboard">
+              <i data-lucide="copy" style="width: 10px; height: 10px;"></i>
+              <span>Copy</span>
+            </button>
+          </div>
+          <div id="inspector-tab-content">
+            <!-- Populated dynamically based on selected tab and selectedNode -->
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <!-- Toast Notification Overlay -->
+  <div id="toast-notification" role="status" aria-live="polite">
+    <i data-lucide="check-circle" style="width: 13px; height: 13px; color: var(--accent-emerald);"></i>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- Core App Entry Point (Runs everywhere: file:/// and http/https without CORS restrictions) -->
+  <script src="./js/bundle.js"></script>
+</body>
+</html>

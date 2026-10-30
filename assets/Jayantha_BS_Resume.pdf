@@ -1,0 +1,258 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 8 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Length 4618 >>
+stream
+BT
+/F1 8.5 Tf
+12.5 TL
+36 805 Td
+/F2 14 Tf
+(JAYANTHA BS) Tj
+T*
+/F1 8.5 Tf
+/F2 9 Tf
+(SENIOR SOFTWARE ENGINEER - AI PLATFORMS, MULTI-AGENT RUNTIMES & BACKEND SYSTEMS) Tj
+T*
+/F1 8.5 Tf
+/F1 8 Tf
+(Bengaluru, India | jayanthbillemane@gmail.com | +91 7847010071 | linkedin.com/in/jayanth-billemane-a95b68253) Tj
+T*
+/F1 8.5 Tf
+(------------------------------------------------------------------------------------------------------------------) Tj
+T*
+/F2 10 Tf
+(PROFESSIONAL SUMMARY) Tj
+T*
+/F1 8.5 Tf
+(Senior Software Engineer with 6+ years of experience engineering high-performance AI agent runtimes,) Tj
+T*
+(citation-aware RAG pipelines, and regulatory-compliant enterprise software. Proven track record architecting) Tj
+T*
+(modular multi-agent frameworks using Python, FastAPI, and LangGraph, paired with high-volume vector search and) Tj
+T*
+(real-time observability. Deep expertise in life-sciences compliance automation, including Veeva Vault MLR) Tj
+T*
+(ingestion, Italian AIFA regulatory guardrails, and Salesforce auto-triggered CRM delivery. Adept at translating) Tj
+T*
+(complex enterprise domain logic into resilient distributed architectures with strict state tracking, tool sandboxing,) Tj
+T*
+(and sub-second retrieval latency.) Tj
+T*
+(------------------------------------------------------------------------------------------------------------------) Tj
+T*
+/F2 10 Tf
+(CORE COMPETENCIES) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(AI & Agent Platforms: Multi-Agent Orchestration \(LangGraph, LangChain\), Context Management, Agentic Middleware, Tool Sandboxing) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Regulatory & Compliance AI: AIFA Regulatory Governance, MLR Policy Guardrails, Audit Trail Grounding, Veeva Vault, Salesforce CRM) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Search & Document AI: Vector Retrieval \(Azure AI Search\), Data Labs, Azure Vision, Citation Tracking, Layout Chunking, Metadata Enrichment) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Backend & Cloud: Python 3.12, FastAPI, Django Ninja, PostgreSQL, Redis, REST & Streaming APIs, Docker, Kubernetes, Azure Architecture) Tj
+T*
+/F1 8.5 Tf
+(------------------------------------------------------------------------------------------------------------------) Tj
+T*
+/F2 10 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+T*
+/F1 8.5 Tf
+/F2 9 Tf
+(Senior Full Stack Developer | Phamax Consulting \(Ariya Division\)           Aug 2024 - Oct 2026 | Bengaluru, India) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(AI AGENT PLATFORM & RUNTIME ARCHITECTURE) Tj
+T*
+/F1 8.5 Tf
+(- Configurable Multi-Agent Runtime: Architected modular execution runtime using Python 3.12, FastAPI, LangGraph, and LangChain,) Tj
+T*
+(  integrating OpenAI and Anthropic models with agent-specific prompts, dynamic toolsets, and persistent storage.) Tj
+T*
+(- Zero-Downtime Dynamic Graph Compilation: Implemented hot-swappable graph compilation allowing agent capabilities to evolve.) Tj
+T*
+(- Streaming Execution Architecture: Developed thread-management and streaming-run APIs alongside AG-UI integration.) Tj
+T*
+(- Reusable Agent Middleware: Engineered model-call middleware for context summarization, token accounting, and loop-prevention.) Tj
+T*
+(- Enterprise Security & Tool Isolation: Implemented unified JWT authentication, SSO session propagation, and tool sandboxing.) Tj
+T*
+(- Distributed Observability & Evaluation: Integrated OpenTelemetry, OpenInference, and Arize Phoenix to trace agent lineages.) Tj
+T*
+/F2 8.5 Tf
+(REGULATORY COMPLIANCE, INGESTION & DOCUMENT INTELLIGENCE) Tj
+T*
+/F1 8.5 Tf
+(- AIFA Regulatory & Compliance-Aware Engine: Engineered deterministic compliance guardrails adhering to Italian standards \(AIFA\).) Tj
+T*
+(- Evidence Grounding & Citation Retrieval: Engineered citation-aware RAG pipeline utilizing Azure AI Search and bounding-box tracking.) Tj
+T*
+(- Ingestion Optimization: Reduced document-ingestion time by 50% by streamlining processing pipelines and HITL workflows.) Tj
+T*
+(- Enterprise Document Processing: Processed complex clinical decks/PDFs into Markdown/JSON via DataLabs and Azure Vision.) Tj
+T*
+/F2 8.5 Tf
+(AI APPLICATIONS, ANALYTICS & ENTERPRISE INTEGRATIONS) Tj
+T*
+/F1 8.5 Tf
+(- Veeva Vault & Salesforce Content Automation: Integrated Veeva Vault APIs within Content Wizard; automated Salesforce delivery.) Tj
+T*
+(- Content Wizard Platform: Built core platform using React, TypeScript, Django Ninja, and GrapesJS for rapid asset generation.) Tj
+T*
+(- Pharmaceutical Intelligence: Delivered two AI analytics suites empowering European pharma clients with market intelligence.) Tj
+T*
+(- Analytical Execution: Developed agent-driven analytical workflows integrating Microsoft Flint, Vega, and DuckDB.) Tj
+T*
+ET
+
+endstream
+endobj
+8 0 obj
+<< /Length 3783 >>
+stream
+BT
+/F1 8.5 Tf
+12.5 TL
+36 805 Td
+/F2 14 Tf
+(JAYANTHA BS - Resume \(Page 2\)) Tj
+T*
+/F1 8.5 Tf
+(------------------------------------------------------------------------------------------------------------------) Tj
+T*
+/F2 9 Tf
+(Software Developer | CamcomAI                                              Dec 2021 - Oct 2023 | Bengaluru, India) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(AICAMERA & COMPUTER VISION PLATFORM) Tj
+T*
+/F1 8.5 Tf
+(- AICAMERA Platform Architecture: Engineered core features of AICAMERA automated vehicle inspection platform,) Tj
+T*
+(  driving up to a 95% reduction in manual inspection turnaround and claim processing costs.) Tj
+T*
+(- Real-Time Orientation Classification: Implemented in-house vehicle-side classification model to guide users in angle capture.) Tj
+T*
+(- Edge Media & Telemetry Capture: Developed browser-based camera streaming via JavaScript MediaDevices APIs at 15 FPS video.) Tj
+T*
+(- CVAS Microservices Migration: Decomposed monolithic services into microservices and developed image-annotation tools \(OpenCV\).) Tj
+T*
+(------------------------------------------------------------------------------------------------------------------) Tj
+T*
+/F2 9 Tf
+(Contract Developer | Medilenz and Risk Advisors Inc.                       Oct 2020 - Nov 2021 | Bengaluru, India) Tj
+T*
+/F1 8.5 Tf
+(- Developed automated data-extraction pipelines using Python, Beautiful Soup, and Flask for structured medical claims information.) Tj
+T*
+(- Built interactive analytical dashboards and monitoring interfaces using ReactJS and Redux.) Tj
+T*
+(------------------------------------------------------------------------------------------------------------------) Tj
+T*
+/F2 9 Tf
+(Software Engineer | EFI                                                    Apr 2019 - Jul 2020 | Bengaluru, India) Tj
+T*
+/F1 8.5 Tf
+(- Automated enterprise directory management and distribution list synchronization via Python Active Directory/LDAP scripts.) Tj
+T*
+(- Developed monitoring capabilities for business-critical internal portals and built frontend components for Active Directory.) Tj
+T*
+(------------------------------------------------------------------------------------------------------------------) Tj
+T*
+/F2 10 Tf
+(TECHNICAL SKILLS DIRECTORY) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Programming Languages: Python, JavaScript \(ES6+\), TypeScript, SQL, HTML5/CSS3) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(AI & Agentic Systems: LangGraph, LangChain, OpenAI API, Anthropic Models, RAG, Agent Middleware, Tool Orchestration, Context) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Regulatory & MarTech: AIFA Compliance Governance, MLR Audit Trails, Veeva Vault \(PromoMats API\), Salesforce CRM / Marketing Cloud) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Document Intelligence & Search: Azure AI Search, Azure Vision, DataLabs, Vector Embeddings, Chunking, Bounding-Box Attribution) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Backend & Databases: FastAPI, Django, Django Ninja, Flask, SQLAlchemy, Alembic, PostgreSQL, MySQL, SQLite, Azure Cosmos DB, DuckDB, Redis) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Frontend & Visualization: React, TypeScript, Redux, Tailwind CSS, GrapesJS, FabricJS, Vega, Microsoft Flint) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Cloud & DevOps: Microsoft Azure \(App Services, Blob Storage\), Docker, Kubernetes, CI/CD \(GitHub Actions\)) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Observability & Dev Tools: OpenTelemetry, OpenInference, Arize Phoenix, GitHub Copilot, Cursor, Antigravity) Tj
+T*
+/F1 8.5 Tf
+(------------------------------------------------------------------------------------------------------------------) Tj
+T*
+/F2 10 Tf
+(EDUCATION) Tj
+T*
+/F1 8.5 Tf
+/F2 8.5 Tf
+(Bachelor of Engineering \(B.E.\) - Medical Electronics \(2015 - 2019\)) Tj
+T*
+/F1 8.5 Tf
+(M.S. Ramaiah Institute of Technology \(MSRIT\), Bengaluru, Karnataka, India) Tj
+T*
+ET
+
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000263 00000 n 
+0000000399 00000 n 
+0000000469 00000 n 
+0000000544 00000 n 
+0000005214 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+9049
+%%EOF
